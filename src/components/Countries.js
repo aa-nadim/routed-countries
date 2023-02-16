@@ -3,7 +3,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 
 const Countries = () => {
   const countries = useLoaderData();
-  console.log(countries);
+  //console.log(countries);
   return (
     <div>
       <h3>All Countries: {countries.length} </h3>
